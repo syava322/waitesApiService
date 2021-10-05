@@ -17,10 +17,11 @@ The API will help to sort data (price/date as well as pagination), add new ones,
 
 The functionality of the API was conducted in the application Postman. Tests were also performed to verify the data transfer.
 
-https://imgur.com/G7poXe2
-https://imgur.com/aIfXV0y
-https://imgur.com/wzh9V5H
-https://imgur.com/9VEAFvM
+![Roles Permissions screenshot](https://laraveldaily.com/wp-content/uploads/2019/10/laravel-roles-permissions-users.png)
+![Reviewing1](https://imgur.com/G7poXe2)
+![Reviewing2](https://imgur.com/aIfXV0y)
+![Reviewing3](https://imgur.com/wzh9V5H)
+![Testing](https://imgur.com/9VEAFvM)
 
 
 ### Thoughts
