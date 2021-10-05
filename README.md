@@ -1,6 +1,6 @@
 ## About API
 
-This project began development on October 5, 2021. Ended 5-6 October. 
+This project began development on October 4-5, 2021. Ended 5 October. 
 The API will help to sort data (price/date as well as pagination), add new ones, delete. When writing the project, following the rules set out in the worksheet.
 
 ## Usage
