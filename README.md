@@ -1,6 +1,6 @@
 ## About API
 
-This project began development on October 4-5, 2021. Ended 5 October. 
+This project began development on October 4-5, 2021. Ended 5 October. The project is updated when possible when there is time.
 The API will help to sort data (price/date as well as pagination), add new ones, delete. When writing the project, following the rules set out in the worksheet.
 
 ## Usage
@@ -12,6 +12,7 @@ The API will help to sort data (price/date as well as pagination), add new ones,
 - Run `php artisan migrate --seed` (it has some seeded data - see below)
 - Run `php artisan migrate --seed --env=testing` (for testing, second db)
 - Run 'php artisan test'
+- Add Accept application/json and Content-Type application/json in Headers Postman, when you check API.
 
 ## Testing/Reviewing
 

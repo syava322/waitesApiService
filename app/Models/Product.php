@@ -10,6 +10,12 @@ class Product extends Model
     use HasFactory;
 
     protected $guarded = [];
-
+//    protected $fillable = [
+//      'name',
+//      'main_product',
+//      'price',
+//      'description',
+//      'images'
+//    ];
 
 }
