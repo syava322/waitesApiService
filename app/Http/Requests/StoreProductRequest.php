@@ -24,11 +24,20 @@ class StoreProductRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'required|string|max:191|min:1',
-            'price' => 'required|max:15000',
-            'main_picture' => 'required',
+            'name' => 'required|string|max:200|min:1',
+            'price' => 'required|integer|max:15000',
+            'main_picture' => 'required|url',
             'description' => 'string|max:1000',
             'images' => 'url'
+        ];
+    }
+
+    public function messages()
+    {
+        return [
+            'images.url' => 'Image should url format (https://link.com/)',
+            'main_picture.url' => 'Image should url format (https://link.com/)',
+            'price.integer' => 'Enter in numerical format',
         ];
     }
 }
